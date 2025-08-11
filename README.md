@@ -16,6 +16,9 @@ Before starting, make sure you have the following installed:
 - MySQL (or MariaDB)
 - Laravel 10.x
 
+### **Local Use**
+- Create DB named audit_scanner
+
 ---
 
 ## 🚀 Setup Instructions
