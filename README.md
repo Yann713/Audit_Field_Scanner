@@ -30,7 +30,7 @@ bash
 ### 2 Laravel Backend Setup
 
 Navigate to Folder
--cd audit_backend
+- cd audit_backend
 
 Install dependencies
 - composer install
@@ -39,12 +39,12 @@ Create .env file
 - cp .env.example .env
 
 -Inside .env file
-  DB_CONNECTION=mysql
-  DB_HOST=127.0.0.1
-  DB_PORT=3306
-  DB_DATABASE=audit_scanner_db
-  DB_USERNAME=root
-  DB_PASSWORD=
+  - DB_CONNECTION=mysql
+  - DB_HOST=127.0.0.1
+  - DB_PORT=3306
+  - DB_DATABASE=audit_scanner_db
+  - DB_USERNAME=root
+  - DB_PASSWORD=
 
 Migration
 - php artisan key:generate
